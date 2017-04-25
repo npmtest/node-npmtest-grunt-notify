@@ -1,6 +1,6 @@
 # npmtest-grunt-notify
 
-#### test coverage for  [grunt-notify (v0.4.5)](https://github.com/dylang/grunt-notify)  [![npm package](https://img.shields.io/npm/v/npmtest-grunt-notify.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-grunt-notify) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-grunt-notify.svg)](https://travis-ci.org/npmtest/node-npmtest-grunt-notify)
+#### basic test coverage for  [grunt-notify (v0.4.5)](https://github.com/dylang/grunt-notify)  [![npm package](https://img.shields.io/npm/v/npmtest-grunt-notify.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-grunt-notify) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-grunt-notify.svg)](https://travis-ci.org/npmtest/node-npmtest-grunt-notify)
 
 #### Automatic desktop notifications for Grunt errors and warnings. Supports OS X, Windows, Linux.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-grunt-notify/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-grunt-notify/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-grunt-notify/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-grunt-notify/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-grunt-notify/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-grunt-notify/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-grunt-notify/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-grunt-notify/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-grunt-notify/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-grunt-notify/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-grunt-notify/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-grunt-notify/build/coverage.html/index.html)
 
@@ -96,7 +96,8 @@
     "scripts": {
         "test": "grunt test"
     },
-    "version": "0.4.5"
+    "version": "0.4.5",
+    "bin": {}
 }
 ```
 
